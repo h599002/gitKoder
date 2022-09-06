@@ -3,7 +3,7 @@ package no.hvl.dat100;
 import static javax.swing.JOptionPane.*;
 import static java.lang.Integer.*;
 
-public class fakultet {
+public class O3Fakultet {
 
 	public static void main(String[] args) {
 						
