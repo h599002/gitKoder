@@ -6,15 +6,20 @@ import static java.lang.Integer.*;
 public class fakultet {
 
 	public static void main(String[] args) {
-		
+						
 		int n = parseInt(showInputDialog("Skriv et tall: "));
 		int tall = n;
-		
-		for(int i = n ;i > 1; i--) {
-			tall = tall*(i-1);
+		if (n<=0) {
+			showMessageDialog(null, "Dette tallet er ikke gyldig.");
+		} else {
+			
+			
+			for(int i = n ;i > 1; i--) {
+				tall = tall*(i-1);
+			}
+			
+			showMessageDialog(null, n + " Fakultet er: " + tall);
 		}
-		
-		showMessageDialog(null, n + " Fakultet er: " + tall);
 		
 	}
 
