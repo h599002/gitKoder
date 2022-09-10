@@ -10,7 +10,7 @@ public class O2Karakterskala {
 		//Henter inn karakteren
 		int karakter = parseInt(showInputDialog("Hor mange poeng fikk du? "));
 		
-		//Definerer skattprosent som desimal som er enkel å gange med
+		//Definerer de ulike karakterene
 		final char charA = 'A', charB = 'B', charC = 'C', charD = 'D', charE = 'E', charF = 'F';
 		
 		//Definerer bunnen på de ulike karakterstrinnene
@@ -33,7 +33,7 @@ public class O2Karakterskala {
 			karakterUt += charA;
 		}
 		
-		//Skriver ut skattebeløpet til brukeren
+		//Skriver ut karakteren til brukeren
 		showMessageDialog(null, karakterUt);
 	}
 	
